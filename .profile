@@ -25,3 +25,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# set PATH so it includes zotero install dir
+if [ -d "/opt/zotero" ] ; then
+    PATH="$PATH:/opt/zotero"
+fi
