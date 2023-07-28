@@ -1,7 +1,7 @@
 [user]
 	name = Christian Brickhouse
 	email = brickhouse@stanford.edu
-	signingkey = FBEBD93E85F2D1EF
+	signingkey = 061C8AEEF0D5561F
 [merge]
 	tool = vimdiff
 [commit]
@@ -11,3 +11,18 @@
 	excludesFile = ~/.gitignore
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[gitreview]
+	remote = origin
+	username = wug
+[pull]
+	ff = only
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	graph = log --oneline --graph
+[push]
+	followTags = true
